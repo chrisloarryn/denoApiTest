@@ -1,11 +1,12 @@
 GET http://localhost:8000/dinosaurs
+Content-Type: application/json
 
 ###
 POST http://localhost:8000/dinosaurs
 Content-Type: application/json
 
 {
-"title": "Some Random Dino", "desc": "Pick delicious emoji", "types": ["🌲🌲", "🍖🍖", "👏👏"]
+"title": "Some Random Dino", "desc": "Pick delicious emoji", "types": ["🌲🦕🦕🌲", "🍖🦕🦕🍖", "👏🦕🦕👏"]
 }
 
 
